@@ -1,6 +1,6 @@
 function [ptCloud_rotated] = AlignXY(OriginalPoints)
-%UNTITLED5 此处显示有关此函数的摘要
-%   此处显示详细说明
+%UNTITLED5 姝ゅ鏄剧ず鏈夊叧姝ゅ嚱鏁扮殑鎽樿
+%   姝ゅ鏄剧ず璇︾粏璇存槑
 PCA = pca(OriginalPoints);
 e1 = PCA(:,1)'; e2 = PCA(:,2)'; e3 = PCA(:,3)';
 n3 = [0 0 1];
